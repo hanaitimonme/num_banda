@@ -1,0 +1,257 @@
+                           EPSON OPOS ADK Version 2.70J R16
+               サポートするデバイス、動作確認ファームウェアバージョン
+
+                                                          セイコーエプソン(株)
+                                                                 2014年4月25日
+
+ 本製品では、下記のデバイスをサポートします。
+ 動作確認ファームウェアバージョンを記載している機種については、記載されている
+ バージョンのファームウェアを使用していただくことを推奨します。
+ このバージョン以降で動作させてください。バージョン以前のものでも動作しますが問
+ 題があった場合は、このバージョン以降で動作させてください。
+ なお、以下の記載中、I/F欄に使用している記号は、S=Serial、P=Parallel、U=USB、
+ E=Ethernet（無線も含む）、B=Bluetoothを示します。
+
+
+ POSﾌﾟﾘﾝﾀｰ(POSPrinter)                                  動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+   [新規サポートするデバイス]
+     EPSON TM-T20IIME     (Ethernet)                          Ver 5.00
+     EPSON TM-T20IIMB     (Bluetooth)                         Ver 5.00
+     EPSON TM-T20IIMU     (USB)                               Ver 5.00
+     EPSON TM-T20IIM-42CE (Ethernet)                          Ver 5.00
+     EPSON TM-T20IIM-42CB (Bluetooth)                         Ver 5.00
+     EPSON TM-T20IIM-42CU (USB)                               Ver 5.00
+     EPSON TM-T70IIMB    (Bluetooth)                          Ver 5.00
+     EPSON TM-T88VMB     (Bluetooth)                          Ver 30.12
+
+   [現在サポートしているデバイス]
+     EPSON TM-295 (TM-U295) (*1)                              Ver 1.08
+     EPSON TM-295P (TM-U295P)(ﾊﾟﾗﾚﾙI/F) (*1)                  Ver 1.08
+     EPSON TM-H5000IIM                                        Ver 3.46 (*3)
+     EPSON TM-H5000IIME (Ethernet)                            Ver 3.46 (*3)
+     EPSON TM-H5000IIMU (USB)                                 Ver 3.46 (*3)
+     EPSON TM-H5000IIPM (ﾊﾟﾗﾚﾙI/F)                            Ver 3.46 (*3)
+     EPSON TM-H6000IIM                                        Ver 4.00
+     EPSON TM-H6000IIME (Ethernet)                            Ver 4.00
+     EPSON TM-H6000IIMU (USB)                                 Ver 4.00
+     EPSON TM-H6000IIPM (ﾊﾟﾗﾚﾙI/F)                            Ver 4.00
+     EPSON TM-H6000IIIM                                       Ver 10.01
+     EPSON TM-H6000IIIME (Ethernet)                           Ver 10.01
+     EPSON TM-H6000IIIMU (USB)                                Ver 10.01
+     EPSON TM-H6000IIIPM (ﾊﾟﾗﾚﾙI/F)                           Ver 10.01
+     EPSON TM-H6000IVM                                        Ver 20.00
+     EPSON TM-H6000IVME (Ethernet)                            Ver 20.00
+     EPSON TM-H6000IVMU (USB)                                 Ver 20.00
+     EPSON TM-H6000IVPM (ﾊﾟﾗﾚﾙI/F)                            Ver 20.00
+     EPSON TM-J2000M/J2100M                                   Ver 2.10
+     EPSON TM-J2000ME/J2100ME (Ethernet)                      Ver 2.10
+     EPSON TM-J2000MU/J2100MU (USB)                           Ver 2.10
+     EPSON TM-J2000PM/J2100PM (ﾊﾟﾗﾚﾙI/F)                      Ver 2.10
+     EPSON TM-L60II                                           Ver 1.02
+     EPSON TM-L60IIP (ﾊﾟﾗﾚﾙI/F)                               Ver 1.04
+     EPSON TM-L90M                                            Ver 1.02
+                                                              Ver 3.00
+     EPSON TM-L90M (with Peeler)                              Ver 1.00
+     EPSON TM-L90ME (Ethernet)                                Ver 1.02
+                                                              Ver 3.00
+     EPSON TM-L90ME (Ethernet)  (with Peeler)                 Ver 1.00
+     EPSON TM-L90MU (USB)                                     Ver 1.02
+                                                              Ver 3.00
+     EPSON TM-L90MU (USB)  (with Peeler)                      Ver 1.00
+     EPSON TM-L90PM (ﾊﾟﾗﾚﾙI/F)                                Ver 1.02
+                                                              Ver 3.00
+     EPSON TM-L90PM (ﾊﾟﾗﾚﾙI/F)  (with Peeler)                 Ver 1.00
+     EPSON TM-P60M                                            Ver 1.00
+     EPSON TM-P60MW (IEEE802.11b)                             Ver 1.00
+     EPSON TM-P60IIPEELERMU (USB)                             Ver 1.00
+     EPSON TM-P60IIPEELERMW (IEEE802.11b/g/n)                 Ver 1.00
+     EPSON TM-P60IIPEELERMB (Bluetooth)                       Ver 1.00
+     EPSON TM-T20MU (USB)                                     Ver 1.01
+     EPSON TM-T20M-42CU (USB)                                 Ver 1.01
+     EPSON TM-T285M                                           Ver 1.04
+     EPSON TM-T285MU (USB)                                    Ver 1.04
+     EPSON TM-T285PM (ﾊﾟﾗﾚﾙI/F)                               Ver 1.04
+     EPSON TM-T70M                                            Ver 5.00
+     EPSON TM-T70ME (Ethernet)                                Ver 5.00
+     EPSON TM-T70MU (USB)                                     Ver 5.00
+     EPSON TM-T70PM (ﾊﾟﾗﾚﾙI/F)                                Ver 5.00
+     EPSON TM-T70IIM                                          Ver 5.00
+     EPSON TM-T70IIME (Ethernet)                              Ver 5.00
+     EPSON TM-T70IIMU (USB)                                   Ver 5.00
+     EPSON TM-T70IIPM (ﾊﾟﾗﾚﾙI/F)                              Ver 5.00
+     EPSON TM-T88IIIM                                         Ver 7.03
+     EPSON TM-T88IIIME (Ethernet)                             Ver 7.03
+     EPSON TM-T88IIIMU (USB)                                  Ver 7.03
+     EPSON TM-T88IIIPM (ﾊﾟﾗﾚﾙI/F)                             Ver 7.03
+     EPSON TM-T88IIIXM ( For ARCX(IM-700) ) (*2)              Ver 7.05
+     EPSON TM-T88IIIXM-04x ( For ARCX(IM-700) ) (*2)          Ver 7.50
+     EPSON TM-T88IVM                                          Ver 10.00
+     EPSON TM-T88IVME (Ethernet)                              Ver 10.00
+     EPSON TM-T88IVMU (USB)                                   Ver 10.00
+     EPSON TM-T88IVPM (ﾊﾟﾗﾚﾙI/F)                              Ver 10.00
+     EPSON TM-T88VM                                           Ver 30.12
+     EPSON TM-T88VME (Ethernet)                               Ver 30.12
+     EPSON TM-T88VMU (USB)                                    Ver 30.12
+     EPSON TM-T88VPM (ﾊﾟﾗﾚﾙI/F)                               Ver 30.12
+     EPSON TM-T90M                                            Ver 1.04
+     EPSON TM-T90ME (Ethernet)                                Ver 1.04
+     EPSON TM-T90MU (USB)                                     Ver 1.04
+     EPSON TM-T90PM (ﾊﾟﾗﾚﾙI/F)                                Ver 1.04
+     EPSON TM-T90KPME(Ethernet)                               Ver 1.00
+                                                              Ver 3.00
+     EPSON TM-T90IIM                                          Ver 5.00
+     EPSON TM-T90IIME (Ethernet)                              Ver 5.00
+     EPSON TM-T90IIMU (USB)                                   Ver 5.00
+     EPSON TM-T90IIPM (ﾊﾟﾗﾚﾙI/F)                              Ver 5.00
+     EPSON TM-U220AM                                          Ver 3.03
+     EPSON TM-U220AME (Ethernet)                              Ver 3.03
+     EPSON TM-U220AMU (USB)                                   Ver 3.03
+     EPSON TM-U220APM (ﾊﾟﾗﾚﾙI/F)                              Ver 3.03
+     EPSON TM-U220BM                                          Ver 3.03
+     EPSON TM-U220BME (Ethernet)                              Ver 3.03
+     EPSON TM-U220BMU (USB)                                   Ver 3.03
+     EPSON TM-U220BPM (ﾊﾟﾗﾚﾙI/F)                              Ver 3.03
+     EPSON TM-U220DM                                          Ver 3.03
+     EPSON TM-U220DME (Ethernet)                              Ver 3.03
+     EPSON TM-U220DMU (USB)                                   Ver 3.03
+     EPSON TM-U220DPM (ﾊﾟﾗﾚﾙI/F)                              Ver 3.03
+     EPSON TM-U375M                                           Ver 1.02
+     EPSON TM-U590M                                           Ver 3.46 (*3)
+     EPSON TM-U590ME (Ethernet)                               Ver 3.46 (*3)
+     EPSON TM-U590MU (USB)                                    Ver 3.46 (*3)
+     EPSON TM-U590PM (ﾊﾟﾗﾚﾙI/F)                               Ver 3.46 (*3)
+     EPSON TM-U675M                                           Ver 1.35 (*4)
+     EPSON TM-U675ME (Ethernet)                               Ver 1.35 (*4)
+     EPSON TM-U675MU (USB)                                    Ver 1.35 (*4)
+     EPSON TM-U675PM (ﾊﾟﾗﾚﾙI/F)                               Ver 1.35 (*4)
+     EPSON TM-U950M                                           Ver 1.03
+     EPSON TM-U950PM (ﾊﾟﾗﾚﾙI/F)                               Ver 1.03
+
+
+ ﾗｲﾝﾃﾞｨｽﾌﾟﾚｲ(LineDisplay)                               動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+
+   [現在サポートしているデバイス]
+     EPSON DM-D110                                            Ver 1.01
+     EPSON DM-D110U (USB)                                     Ver 1.01
+     EPSON DM-D120 (For ARCX(IM-700)) (*2)                    Ver 1.00
+     EPSON DM-D210                                            Ver 1.01
+     EPSON DM-D210U (USB)                                     Ver 1.01
+     EPSON DM-D500                                            Ver 1.10
+     EPSON DM-D500U(USB)                                      Ver 1.10
+
+
+ ﾄﾞﾛﾜｰ(CashDrawer)  
+   [新規サポートするデバイス]
+     EPSON DSA-35EDB (Bluetooth)
+     EPSON DMA-48EDB (Bluetooth)
+     EPSON DLA-58EDB (Bluetooth)
+     EPSON DM-Z460B (松代金属(Bluetooth))
+     EPSON DM-Z461B (松代金属(Bluetooth))
+     EPSON DM-Z400B (松代金属(Bluetooth))
+     EPSON DM-Z100B (松代金属(Bluetooth))
+     EPSON MULTI_AB ( For 2 Drawer(Bluetooth))
+     EPSON MULTI_BB ( For 2 Drawer(Bluetooth))
+   [現在サポートしているデバイス]
+     EPSON DSA-35ED
+     EPSON DSA-35EDE (Ethernet)
+     EPSON DSA-35EDU (USB)
+     EPSON DSA-35EDP (ﾊﾟﾗﾚﾙI/F)
+     EPSON DMA-48ED 
+     EPSON DMA-48EDE (Ethernet)
+     EPSON DMA-48EDU (USB)
+     EPSON DMA-48EDP (ﾊﾟﾗﾚﾙI/F)
+     EPSON DLA-58ED 
+     EPSON DLA-58EDE (Ethernet)
+     EPSON DLA-58EDU (USB)
+     EPSON DLA-58EDP (ﾊﾟﾗﾚﾙI/F)
+     EPSON DM-Z460 (松代金属）
+     EPSON DM-Z460E (松代金属(Ethernet))
+     EPSON DM-Z460U (松代金属(USB))
+     EPSON DM-Z460P (松代金属(ﾊﾟﾗﾚﾙI/F))
+     EPSON DM-Z461 (松代金属)
+     EPSON DM-Z461E (松代金属(Ethernet))
+     EPSON DM-Z461U (松代金属(USB))
+     EPSON DM-Z461P (松代金属(ﾊﾟﾗﾚﾙI/F))
+     EPSON DM-Z400 (松代金属)
+     EPSON DM-Z400E (松代金属(Ethernet))
+     EPSON DM-Z400U (松代金属(USB))
+     EPSON DM-Z400P (松代金属(ﾊﾟﾗﾚﾙI/F))
+     EPSON DM-Z100 (松代金属)
+     EPSON DM-Z100E (松代金属(Ethernet))
+     EPSON DM-Z100U (松代金属(USB))
+     EPSON DM-Z100P (松代金属(ﾊﾟﾗﾚﾙI/F))
+     EPSON MULTI_A ( For 2 Drawer )
+     EPSON MULTI_B ( For 2 Drawer )
+     EPSON MULTI_AE ( For 2 Drawer(Ethernet))
+     EPSON MULTI_BE ( For 2 Drawer(Ethernet))
+     EPSON MULTI_AU ( For 2 Drawer(USB))
+     EPSON MULTI_BU ( For 2 Drawer(USB))
+     EPSON MULTI_AP ( For 2 Drawer(ﾊﾟﾗﾚﾙI/F))
+     EPSON MULTI_BP ( For 2 Drawer(ﾊﾟﾗﾚﾙI/F))
+
+
+ 電子ｼﾞｬｰﾅﾙ(ElectronicJournal)                          動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+   [新規サポートするデバイス]
+     EPSON TM-T20IIME     (Ethernet)                          Ver 5.00
+     EPSON TM-T20IIMU     (USB)                               Ver 5.00
+     EPSON TM-T20IIM-42CE (Ethernet)                          Ver 5.00
+     EPSON TM-T20IIM-42CU (USB)                               Ver 5.00
+
+   [現在サポートしているデバイス]
+     EPSON TM-H6000IIIM                                       Ver 10.01
+     EPSON TM-H6000IIIME (Ethernet)                           Ver 10.01
+     EPSON TM-H6000IIIMU (USB)                                Ver 10.01
+     EPSON TM-H6000IIIPM (ﾊﾟﾗﾚﾙI/F)                           Ver 10.01
+     EPSON TM-T20MU (USB)                                     Ver 1.02
+     EPSON TM-T20M-42CU (USB)                                 Ver 1.02
+     EPSON TM-T88IVM                                          Ver 10.00
+     EPSON TM-T88IVME (Ethernet)                              Ver 10.00
+     EPSON TM-T88IVMU (USB)                                   Ver 10.00
+     EPSON TM-T88IVPM (ﾊﾟﾗﾚﾙI/F)                              Ver 10.00
+     EPSON TM-T88VM                                           Ver 30.12
+     EPSON TM-T88VME (Ethernet)                               Ver 30.12
+     EPSON TM-T88VMU (USB)                                    Ver 30.12
+     EPSON TM-T88VPM (ﾊﾟﾗﾚﾙI/F)                               Ver 30.12
+
+
+ 磁気ｽﾄﾗｲﾌﾟﾘｰﾀﾞｰ(MSR)
+
+   [現在サポートしているデバイス]
+     EPSON DM-MS112     ( For URBANII(SR-610) ) (*2)
+     EPSON DM-MS123     ( For URBANII(SR-610) ) (*2)
+     EPSON DM-MX112     ( For ARCX(IM-700) ) (*2)
+     EPSON DM-MX123     ( For ARCX(IM-700) ) (*2)
+
+
+ ｷｰﾛｯｸ(Keylock)
+
+   [現在サポートしているデバイス]
+     EPSON DM-K840(GIGA KB840) (*2)
+     EPSON DM-KX060 ( For ARCX(IM-700), URBANII(SR-610) ) (*2)
+
+
+ ﾊﾞｰｺｰﾄﾞｽｷｬﾅｰ(Scanner)
+
+   [現在サポートしているデバイス]
+     EPSON DM-S160 001(DENSEI/Nitsuko/NEC BCH5442-SEA) (*2)
+     EPSON DM-S500(松下産業機器 ZE-87RMS2C) (*2)
+     EPSON DM-S160 021(松下産業機器 ZE-84RMSMV) (*2)
+     EPSON DM-S160 011(松下産業機器 ZE-84RMFME) (*2)
+     EPSON DM-S160 031(松下産業機器 ZE-84RMFPE1) (*2)
+     EPSON DM-S160 012(松下産業機器 ZE-84RMFPE) (*2)
+
+
+ ﾊｰﾄﾞﾄｰﾀﾙ(HardTotals)
+
+   [現在サポートしているデバイス]
+     EPSON IM-700 CompactFlash (For ARCX(IM-700)) (*2)
+     EPSON SR-610 CompactFlash (For URBANII(SR-610)) (*2)
+
+
+ *1: TM-295とTM-U295は同一機種です。
+ *2: サポートするOSは以下のものに限定されます。
+       Windows 2000/XP
+       Windows Embedded for Point Of Service
+       Windows Embedded POSReady 2009
+ *3: Ver 3.40未満の場合は，動作しません。
+ *4: Ver 1.20未満の場合は，動作しません。
