@@ -1,0 +1,1269 @@
+                     EPSON OPOS ADK Version 2.70J R16
+                     EPSON OPOS ADK for TM-T88V Version 1.23J
+                     EPSON OPOS ADK for TM-T20 Version 1.21J
+                     EPSON OPOS ADK for TM-T70II Version 1.03J
+                     EPSON OPOS ADK for TM-L90 Version 1.00J
+                     EPSON OPOS ADK for TM-T90II Version 1.00J
+                     EPSON OPOS ADK for TM-T90KP Version 1.00J
+                     EPSON OPOS ADK for TM-T20II Version 1.00J
+                                  リリースノート
+                                                          セイコーエプソン(株)
+                                                                2014年04月25日
+
+
+1． 概要
+    EPSON OPOS ADK をリリース致します。
+    本製品を使用することで、OPOS日本版仕様書第1.13版に準拠したアプリケーション
+    を開発することができます。
+
+    本リリースノートには複数のパッケージの情報が記載されています。インストール
+    する製品に合わせて、以下のように参照してください。
+
+     [EPSON OPOS ADK Version 2.70J R16]
+       2. 概要説明
+       3. 動作環境
+       4. インストール・アンインストール
+       5. EPSON OPOS ADK Version 2.70J R16のサポートデバイス
+       6. EPSON OPOS ADK Version 2.70J R16の注意制限
+       7. EPSON OPOS ADK Version 2.70J R16の変更履歴
+
+     [EPSON OPOS ADK for TM-T88V Version 1.23J]
+       2. 概要説明
+       3. 動作環境
+       4. インストール・アンインストール
+       8. EPSON OPOS ADK for TM-T88V Version 1.23Jのサポートデバイス
+       9. EPSON OPOS ADK for TM-T88V Version 1.23Jの注意制限
+      10. EPSON OPOS ADK for TM-T88V Version 1.23Jの変更履歴
+
+     [EPSON OPOS ADK for TM-T20 Version 1.21J]
+       2. 概要説明
+       3. 動作環境
+       4. インストール・アンインストール
+      11. EPSON OPOS ADK for TM-T20 Version 1.21Jのサポートデバイス
+      12. EPSON OPOS ADK for TM-T20 Version 1.21Jの注意制限事項
+      13. EPSON OPOS ADK for TM-T20 Version 1.21Jの変更履歴
+
+     [EPSON OPOS ADK for TM-T70II Version 1.03J]
+       2. 概要説明
+       3. 動作環境
+       4. インストール・アンインストール
+      14. EPSON OPOS ADK for TM-T70II Version 1.03Jのサポートデバイス
+      15. EPSON OPOS ADK for TM-T70II Version 1.03Jの注意制限事項
+      16. EPSON OPOS ADK for TM-T70II Version 1.03Jの変更履歴
+
+     [EPSON OPOS ADK for TM-L90 Version 1.00J]
+       2. 概要説明
+       3. 動作環境
+       4. インストール・アンインストール
+      17. EPSON OPOS ADK for TM-L90 Version 1.00Jのサポートデバイス
+      18. EPSON OPOS ADK for TM-L90 Version 1.00Jの注意制限事項
+      19. EPSON OPOS ADK for TM-L90 Version 1.00Jの変更履歴
+
+     [EPSON OPOS ADK for TM-T90II Version 1.00J]
+       2. 概要説明
+       3. 動作環境
+       4. インストール・アンインストール
+      20. EPSON OPOS ADK for TM-T90II Version 1.00Jのサポートデバイス
+      21. EPSON OPOS ADK for TM-T90II Version 1.00Jの注意制限事項
+      22. EPSON OPOS ADK for TM-T90II Version 1.00Jの変更履歴
+
+     [EPSON OPOS ADK for TM-T90KP Version 1.00J]
+       2. 概要説明
+       3. 動作環境
+       4. インストール・アンインストール
+      23. EPSON OPOS ADK for TM-T90KP Version 1.00Jのサポートデバイス
+      24. EPSON OPOS ADK for TM-T90KP Version 1.00Jの注意制限事項
+      25. EPSON OPOS ADK for TM-T90KP Version 1.00Jの変更履歴
+     [EPSON OPOS ADK for TM-T20II Version 1.00J]
+       2. 概要説明
+       3. 動作環境
+       4. インストール・アンインストール
+      26. EPSON OPOS ADK for TM-T20II Version 1.00Jのサポートデバイス
+      27. EPSON OPOS ADK for TM-T20II Version 1.00Jの注意制限事項
+      28. EPSON OPOS ADK for TM-T20II Version 1.00Jの変更履歴
+
+2. 概要説明
+    本製品によりインストールされる内容は以下の通りです。
+     - OPOSドライバ
+        詳細につきましては、マニュアルをご参照ください。
+     - サンプルプログラム
+        ファイル内容の詳細につきましては、インストール後にスタートメニューOPOS
+        の中のSample Programsをご覧ください。
+     - マニュアル
+        ファイル内容の詳細につきましては、インストール後にスタートメニューOPOS
+        の中のManualをご覧ください。
+
+        ※マニュアルをご覧になる際は、下記のソフトウェアを使用してください。
+           Windows 2000/XP:   Adobe Reader 7.0 以上（推奨）
+           Windows Vista以降: Adobe Reader 8.0 以上（推奨）
+        ※OPOS APG/CPGのドキュメント
+           Version 1.7より、OPOSのドキュメントは廃止され、UnifiedPOSのドキュメ
+           ントに一本化されましたので、そちらを参照してください。UnifiedPOSのド
+           キュメントは、以下のURLから入手することができます。（2011年12月現在）
+            http://www.nrf-arts.org/content/unifiedpos
+
+3. 動作確認環境
+    本製品は、以下の環境で動作確認を行っています。
+      Windows 8.1 (32bit)    日本語版
+      Windows 8.1 (64bit) *  日本語版
+      Windows 8 (32bit)    日本語版
+      Windows 8 (64bit) *  日本語版
+      Windows 7 SP1 (32bit)    日本語版
+      Windows 7 SP1 (64bit) *  日本語版
+      Windows Vista SP2 (32bit)  日本語版
+      Windows Vista SP2 (64bit) *  日本語版
+      Windows XP SP3 (32bit)  日本語版
+      Windows 2000 SP4  日本語版
+      Windows Server 2008 SP2 (32bit)  日本語版
+      Windows Server 2008 SP2 (64bit) *  日本語版
+      Windows Server 2008 R2 SP1 (64bit) *  日本語版
+      Windows Server 2012 (64bit) *  日本語版
+      Windows Server 2012 R2 (64bit) *  日本語版
+      Windows Embedded for Point Of Service  日本語版
+      Windows Embedded POSReady 2009  日本語版
+      Windows Embedded Standard  日本語版
+      Windows Embedded Standard 7  日本語版
+      Windows Embedded POSReady 7 (32bit)  日本語版
+      Windows Embedded POSReady 7 (64bit) *  日本語版
+
+      * 32bitアプリケーションからのみ使用できます。
+
+4. インストール・アンインストール
+4.1 操作方法
+    インストール、およびアンインストールの操作方法は、「EPSON OPOS ADK マニュア
+    ル インストールマニュアル」(Installer.pdf)に記載されている手順に従ってくだ
+    さい。
+
+4.2 全パッケージと単体パッケージについて
+    本製品には2種類のパッケージ形態が存在します。
+     - 全パッケージ：全てのデバイスのドライバを提供するパッケージ
+     - 単体パッケージ：特定のPOSPrinter、およびそのPOSPrinterとHydra接続可能な
+                       デバイスのドライバのみを提供するパッケージ
+
+    単体パッケージには、ベースとなる全パッケージのバージョンが存在します。
+    単体パッケージは、他の全パッケージや単体パッケージとの共存が可能です。
+    共存する際には、以下の点に注意してください。
+     - 全パッケージの同バージョン、もしくは新しいバージョンが単体パッケージを
+       インストールする環境にすでにインストールされいる場合はインストール不要で
+       あるため、インストールは行えない
+     - アンインストールを行うと、OPOSの全てのパッケージがアンインストールされる
+     - 「プログラムの追加と削除」やSetupPOSのタイトルバーで表示するバージョンは
+       以下のいずれかの最新バージョンとなる
+        - 全パッケージのバージョン
+        - 単体パッケージのベースとしている全パッケージのバージョン
+
+  注意：
+    単体パッケージがインストールされている環境に本製品をインストールした場合、
+    単体パッケージはOPOS日本版仕様書第1.13版に準拠したドライバーに置き換わりま
+    す。
+
+5. EPSON OPOS ADK Version 2.70J R16のサポートデバイス
+    別ファイルの「SupportedDevicesList.txt」を参照してください。
+
+6. EPSON OPOS ADK Version 2.70J R16の注意制限
+    以下に、本バージョンの制限事項および問題の対処方法を記します。
+    この他に、「ユーザーズマニュアル」、「アプリケーション開発ガイド 開発全般」
+    にも注意事項が記載されています。必ず参照してください。
+     - 6.1 インストール・アンインストールについて
+     - 6.2 インターフェイスについて
+     - 6.3 デバイスについて
+     - 6.4 その他
+
+6.1 インストール・アンインストールについて
+    1) インストーラーをキーボード操作で進める場合、エラーメッセージや警告メッセ
+       ージ等が表示された後に、キーボード操作が有効な画面が背景画面に切り替わっ
+       てしまうことがあります。
+       その際には、<Alt + F6>を押下して選択画面を切り替えてください。
+    2) インストール先の環境に登録されているデバイスを本バージョンがサポートして
+       いない場合には、そのデバイスの登録情報を削除する必要があります。
+       事前に既存の登録情報を削除してから、本バージョンをインストールしてくださ
+       い。
+       登録情報を削除せずに本バージョンをインストールした場合には、インストール
+       時に情報を削除します。
+    3) 前バージョン(Ver1.60～Ver1.95)と共存する場合には、必ず前バージョンをイン
+       ストールした後に本製品をインストールしてください。
+    4) 前バージョン(Ver1.60～Ver1.95)と共存している環境をアンインストールする場
+       合には、本バージョンのアンインストールを実行してください。
+    5) OPOS ADK Version2.60のアンインストーラーに不具合があります。
+       OPOS ADK Version2.60をアンインストールする場合は、本バージョンの
+       インストールを行った後にアンインストールを実行してください。
+    6) 本製品を上書きインストールした後にOPOSのアンインストールを行った場合、空
+       のフォルダがインストール先のフォルダ内に残ることがあります。空のフォルダ
+       が残っているときは手動で削除してください。
+       尚、空のフォルダが残ったままの状態でも支障はありません。
+    7) 本製品を前バージョン(Ver.2.68～Ver.2.70)に上書きサイレントインストールし
+       た場合、システムの再起動を行ってください。
+
+6.2 インターフェイスについて
+6.2.1 パラレル接続
+    1) LPTポートは、LPT1で動作確認を行っています。
+    2) BIOSで設定するパラレルのモードについては、ECPやEPPなどの"Bi-Directional"
+       を設定してください。
+    3) BIOSによっては、「ECPでは正常動作しないがEPPでは正常動作する」場合や、逆
+       に「EPPでは正常動作しないがECPでは正常動作する」場合があります。正常に動
+       作しない場合は、本設定を変更して動作確認を行ってください。
+    4) デバイスの電源をOFFしてから、ServiceObjectが電源OFFを認識するまでには、
+       数秒の遅れが生じますので、アプリケーションでこれを考慮してください。
+    5) デバイスをSetupPOSで登録する際、ポートの種類が"TMPORT"となる機種以外を64
+       ビットOS環境で使用する場合は、Windowsの標準パラレルドライバによるサポー
+       トとなります。その際には、次の動作制限があります。
+        - 電源状態の監視機能は使用できません。
+        - コマンドによる復帰可能なエラーの解除ができません。
+          デバイスの電源OFF/ONでエラーを解除してください。
+        - POSPrinterがエラー状態のとき、ドロワーを開くことができません。
+          エラーを解除してからドロワーを開いてください。
+        - プリンター(パラレルモデル)をPCに接続すると、新しいハードウェアの検索
+          ウィザードに「EPSON TM-P X.xxのドライバソフトウェアをインストールする
+          必要があります」と表示されます。
+          ドライバのインストールを行う必要はありませんので、新しいハードウェア
+          の検索ウィザードにて一旦ドライバの検索を行い、ドライバが見つからない
+          状態で[完了]ボタンを押して終了してください。以後、同様のメッセージは
+          表示されなくなります。
+
+          ※[キャンセル]ボタンで終了された場合には、次回接続時に同様のメッセー
+            ジが表示されます。
+
+6.2.2 USB接続
+    1) USBポートは最大10台のPOSPrinterを接続して動作確認を行っています。
+    2) SetupPOSにおいてポートの種類が"TMPORT"となる機種を登録する場合は、
+       [TMPORT Making]ダイアログボックスでUSBのTMPORTを作成した後、数秒後にデバ
+       イスの電源を入れてください。ポートの作成前に電源を入れると、予期しない
+       ポートに接続される可能性があります。
+    3) プリンターの電源ON/OFF時に「新しいハードウェアの検出ウィザード」が表示さ
+       れた場合、検出ウィザードをキャンセルし、EPSON Advanced Printer Driver 
+       (Version 4.50以降)をインストールしてください。
+
+6.2.3 ネットワーク接続
+    1) ネットワークポートは、最大20台のPOSPrinterを接続して動作確認を行っていま
+       す。
+    2) ネットワークインターフェイス機器をご利用の場合は、以下の点にご注意くださ
+       い。
+        - TMプリンターの電源OFF/ONの動作をサポートしていますが、電源ON後に必ず
+          再接続することを保証できませんのでご注意ください。
+          そのPCとTMプリンターは独占して接続しています（他のPCとそのTMプリンター
+          との接続はできません）。しかし、TMプリンターの電源を一旦OFFし、再度ON
+          した場合、そのTMプリンターはネットワーク上に存在するどのPCとも接続可能
+          な状態となります。この時、動作中のOPOSは、自動的に再接続を試みますが、
+          他のPCのOPOSがClaimしようとした場合はどちらが接続できるか不明です。
+          一番速く接続要求をしたPCが接続を確立します。よって、電源OFF/ONはサポー
+          トしているものの、必ず再接続できるとは限りませんのでご注意ください。 
+        - TMプリンターの電源投入時、リセット時、およびネットワーク機能を作動さ
+          せるまでに最大20秒程かかる場合がありますので、この時間経過後に処理を
+          開始してください。
+6.2.4 Bluetooth接続
+    1) プリンターの電源をOFFにしてから約20秒間は、電源をONにしても印刷すること
+　　　 ができません。
+
+6.3 デバイスについて
+6.3.1 POSPrinter
+    1) 多階調印字：
+       多諧調印刷の方法は2種類あります。
+       -PrintBitmap
+         SetupPOSの「デバイス固有の設定」→「階調」の設定を「多諧調」に設定するか、
+         DirectIOメソッド(DI_SET_BITMAP_PRINTING_TYPE)でモードを切り替えてください。
+         なお、多階調印字を行う場合、シリアルとEthernetインターフェイスでは、多階
+         調に設定すると、印字結果に白い筋が入る可能性があります。また、イメージ
+         データの印字速度が遅くなる可能性があります。
+       -不揮発性メモリ
+         不揮発性メモリにイメージを登録する場合は、ユーティティでイメージを登録し、
+         DerectIOメソッド(DI_PRINT_FLASH_BITMAP2)を使って印字してください。
+    2) OPOS使用による以降のプリンター送信データについて
+       一旦OPOSを使用することにより、デバイス設定が書き換えられます。これにより
+       次のデータがデバイスから送信されますので、OPOSを使用せずに直接デバイスを
+       使用する場合には、このデータを読み捨ててください。
+        - 電源ONの際に送信される3バイトのプリンターステータス
+        - 電源ONの際に送信される3バイトの電源ON通知
+
+
+6.3.2 HardTotals
+    1) EPSON IMシリーズNVRAMを使用するHardTotalsは、NVRAMアクセス用ドライバの
+       “EPSON NVRAM Driver”が必要です。“EPSON NVRAM Driver”がインストールさ
+       れていない環境ではHardTotalsはインストールされません。HardTotalsをインス
+       トールするためには、必ず“EPSON NVRAM Driver”をご使用になるマシンにイン
+       ストールをしてください。“EPSON NVRAM Driver”の入手方法に関しましては、
+       IMハードウェアの購入元へお問い合わせください。
+
+6.3.3 KeyLock
+    1) Windows2000ではKeyLockの位置情報を正しく取得できません。そのため、オプ
+       ション製品のDM-KX060を使用することはできません。
+
+6.4 その他
+    1) OSのスタンバイ/休止状態モード
+       プリンターが動作している時にコンピューターがスタンバイ/休止状態に移行す
+       るとドライバーの動作が不安定になる場合がありますので、コンピューターのス
+       タンバイ/休止状態は使用しないでください。
+    2) OSのアップグレードインストールについて
+      ・既にドライバーがインストールされている環境でOSのアップグレードをする場合は、
+        OSのアップグレードが完了した後にデバイスを再登録してください
+    3) サンプルプログラムについて
+      ・サンプルプログラムでは、制御方法の例を示しています。そのため、全デバイス
+        の全設定での動作を保証してはおりません。
+       ・EPSON OPOS ADK for TM-T88V Version 1.23Jをご利用の場合：
+         本製品を上書きインストールする際は、以下の点にご注意ください。
+          - Oposepsn.basファイルが更新されています。
+          - ステップ19で使用している定義名が変更されています。
+            [変更前]               [変更後]
+            PTR_DI_NORMAL      →  PTR_DI_BITMAP_PRINTING_NORMAL
+            PTR_DI_MULTI_TONE  →  PTR_DI_BITMAP_PRINTING_MULTI_TONE
+    4) ログファイルの保存場所について
+       トレースログファイル、プリンターのステータスログファイルのデフォルトの保
+       存場所は、以下の通りです。
+        Windows Vista/7/Embedded POSReady 7/Embedded Standard 7/8の場合：
+          (システムドライブ):
+            \ProgramData\EPSON\OPOS
+        Windows 2000/XPの場合：
+          (システムドライブ):
+            \Documents and Settings\All Users\Application Data\EPSON\OPOS
+        Windows Serverの場合：
+          (システムドライブ):
+            \Program Data\EPSON\OPOS
+        Windows Embeddedの場合：
+          (システムドライブ):
+            \Documents and Settings\All Users\Application Data\EPSON\OPOS
+
+7. EPSON OPOS ADK Version 2.70J R16の変更履歴
+    [Version2.70 R16]
+     (1)POSプリンター(POSPrinter)
+       - TM-T20IIMがサポートデバイスに追加されました。
+       - TM-T20IIM-42Cがサポートデバイスに追加されました。
+       - Bluetoothが、TM-T88Vのサポートインターフェースに追加されました。
+       - Bluetoothが、TM-T70IIのサポートインターフェースに追加されました。
+     (2)電子ｼﾞｬｰﾅﾙ(ElectronicJournal)
+       - TM-T20IIMがサポートデバイスに追加されました。
+       - TM-T20IIM-42Cがサポートデバイスに追加されました。
+     (3)ﾄﾞﾛﾜｰ(CashDrawer)
+       - Bluetoothが、CashDrawerのサポートインターフェースに追加されました。
+    [Version2.70 R15]
+      不具合修正
+           - SetupPOSでTM-T70IIのCashDrawerが登録できない現象に対応しました。
+           - SetupPOSでTM-T70IIのCashDrawerの初期化に失敗する現象に対応しました。
+    [Version2.70 R12]
+      不具合修正
+           - TM-T70IIでOPOSの初期化に失敗する現象に対応しました。
+    [Version2.70 R11]
+       Windows 8.1 (32bit)、Windows 8.1 (64bit)、
+       Windows Server 2012 R2(64 bit)をOS環境に追加しました。
+    [Version2.70 R10]
+      不具合修正
+           - TM-P60IIPEELERでBitmap登録できない現象に対応しました。
+    [Version2.70 R9]
+       TM-T90IIMがサポートデバイスに追加されました。
+    [Version2.70 R8]
+       TM-L90の自動用紙節約機能に対応しました。
+       TM-L90の外付けオプションブザーに対応しました。
+       TM-L90のバーコード印字機能でGS1, Composit, Datamatrix, Micro QRシンボルをサポートしました。
+    [Version2.70 R6]
+       TM-T70IIMがサポートデバイスに追加されました。
+    [Version2.70 R5]
+       TM-P60IIPEELERMがサポートデバイスに追加されました。
+    [Version2.70 R4]
+       Windows 8 (32bit)、Windows 8 (64bit)、Windows Server 2012 (64 bit)をOS環境に追加しました。
+    [Version2.70 R3]
+      変更なし
+    [Version2.70 R2]
+      変更なし
+    [Version2.70]
+     (1)UPOS 1.12／1.13版に準拠し、以下の機能を追加しています。
+         POSプリンター(POSPrinter)：
+           - エスケープシーケンス機能の追加
+             エスケープシーケンスのアスタリスク機能
+             取り消し線機能
+           - バーコード GS1、QRシンボルの定数追加
+     (2)SetupPOS
+       - トレース機能：[トレースログファイルのサイズが上限を超えた際に通知する]
+         設定のデフォルトを無効にしました。
+         ユーザーズマニュアルの「5.2.1 メニュー」の「5 オプション」を参照してく
+         ださい。
+     (3)POSプリンター(POSPrinter)
+       - DirectIO Eventで通知できるESC/POSコマンドのレスポンスの種類を追加しま
+         した。
+       - 不揮発性メモリ(NVRAM)に登録できるイメージ数の制限を外しました。
+         アプリケーション開発ガイド POSPrinterマニュアルの「3.5.2.1 NV ビット
+         マップ」を参照してください。
+    [Version2.68 R2]
+     (1)POSプリンター(POSPrinter)
+       - TM-H6000IVMがサポートデバイスに追加されました。
+     (2)電子ｼﾞｬｰﾅﾙ(ElectronicJournal)
+       - TM-H6000IVMがサポートデバイスに追加されました。
+         ※電子ｼﾞｬｰﾅﾙのマニュアルにおいて、TM-H6000IIIをTM-H6000IVに読み替えて
+           ください。
+    [Version2.68]
+     (1)共通
+       - Windows Embedded POSReady 7 (32bit)、
+         Windows Embedded POSReady 7 (64bit)をOS環境に追加しました。
+     (2)POSプリンター(POSPrinter)
+       - TM-T88Vの自動用紙節約機能に対応しました。
+    [Version2.67 R5]
+     (1)共通
+       - TM-T20単体パッケージとの共存に対応しました。
+    [Version2.67 R4]
+     (1)共通
+       - Windows Embedded Standard 7をOS環境に追加しました。
+       - Windows 7 SP1 (32bit)、Windows 7 SP1 (64bit)、およびWindows Server 
+         2008 R2 SP1 (64bit)をOS環境に追加しました。
+     (2)POSプリンター(POSPrinter)
+       - TM-T20Mがサポートデバイスに追加されました。
+       - TM-T20M-42Cがサポートデバイスに追加されました。
+     (3)電子ｼﾞｬｰﾅﾙ(ElectronicJournal)
+       - TM-T20Mがサポートデバイスに追加されました。
+       - TM-T20M-42Cがサポートデバイスに追加されました。
+    [Version2.67 R3]
+     (1)POSプリンター(POSPrinter)
+       - TM-T90KPMがサポートデバイスに追加されました。
+    [Version2.67]
+     (1)共通
+       - 単体パッケージとの共存に対応しました。
+       - Windows Server 2008 SP2 (32bit)、Windows Server 2008 SP2 (64bit)、
+         Windows Server 2008 R2 (64bit)、Windows Embedded Standard、
+         Windows 7 (32bit)、Windows 7 (64bit) をサポートリストに追加しました。
+     (2)POSプリンター(POSPrinter)
+       - TM-T88VMがサポートデバイスに追加されました。
+       - デフォルト文字コードの変更を可能にしました。(TM-T88VM のみ)
+       - 多階調印字機能に対応しました。(TM-T88VM のみ)
+       - 外付けオプションブザーに対応しました。(TM-T88VM のみ)
+     (3)電子ｼﾞｬｰﾅﾙ(ElectronicJournal)
+       - TM-T88VMがサポートデバイスに追加されました。
+     (4)TM Flash ロゴユーティリティ(TMFLogo)
+       - TMFLogoツールでモノクロ選択かつキーコード有効でロゴを登録した場合に、
+         下記対象デバイスの「用紙選択」設定を変更してしまう現象に対応しました。
+         (対象デバイス：TM-T88IVM、TM-L90M、TM-T90M)
+    [Version2.65]
+     (1)共通
+       - Windows Vista 64ビット版 Ultimate/Business/Enterprise をOS環境に追加
+         しました。
+         ※ Windows Vista 64ビット版においてパラレルインターフェイスをお使いに
+            なる場合は、Windowsの標準ドライバによるサポートとなります。
+       - Windows Embedded POSReady 2009 をOS環境に追加しました。
+       - TMUSBドライバを更新しました。
+       - OPOS アンインストール時に、レジストリに書かれている他社のバイナリ値、
+         および文字列配列値を書き換えてしまう現象に対応しました。
+    [Version2.63]
+     (1)アンインストーラー
+       - OPOS アンインストール時に、レジストリに書かれている他社のOPOS設定情報
+         を書き換えてしまう現象に対応しました。
+         例：
+          アンインストール前設定情報："\\.\COM10"
+          アンインストール後設定情報：".\COM10"
+    [Version2.62SP1]
+     (1)POSプリンター(POSPrinter)
+       - キャラクタのデフォルトフォントの変更を可能にしました。
+       - キャラクタのデフォルト改行量の変更を可能にしました。
+       - TM-T70Mでダウンロードビットマップとして登録できるデータのサイズを修正
+         しました。
+       - 印字が重なる不具合を修正しました。
+    [Version2.62]
+     (1)共通
+       - TMUSBドライバを更新しました。
+    [Version2.61]
+     (1)UPOS 1.10／1.11版に準拠し、以下の機能を追加しています。
+         共通：
+           エラーイベントHandling
+           デバイスの初期化
+           ハイドラデバイスのエラーコード
+           ClearInputProperties メソッド
+         POS Printers：
+           エスケープシーケンス機能の追加
+             エスケープシーケンスの無効化機能
+             左寄せ機能
+             バーコード印字機能
+           PrintMemoryBitmap メソッドの追加
+         磁気ｽﾄﾗｲﾌﾟﾘｰﾀﾞ(MSR)：
+           デバイススタティスティクスの定義名を追加
+         電子ｼﾞｬｰﾅﾙ(ElectronicJournal)：
+           新規にサポートデバイスカテゴリに追加
+     (2)ﾄﾞﾛﾜｰ(CashDrawer)
+       - CCO登録時のトレース機能
+     (3)ﾗｲﾝﾃﾞｨｽﾌﾟﾚｲ(LineDisplay)
+       - CCO登録時のトレース機能
+     (4)POSﾌﾟﾘﾝﾀ(POSPrinter)
+       - 行中アライメント機能
+     (5)ElectronicJournal
+       - CCO登録時のトレース機能
+     (6)インストーラー、アンインストーラー
+       - サイレントインストール、サイレントアンインストール手順の変更
+       - 新規にOPOSをインストールする場合、デフォルトでインストールされるCOを
+         EPSON COからCCOに変更
+
+
+8. EPSON OPOS ADK for TM-T88V Version 1.23Jのサポートデバイス
+
+8.1 サポートするデバイス、動作確認ファームウェアバージョン
+    本製品では、下記のデバイスをサポートします。
+    動作確認ファームウェアバージョンを記載している機種については、記載されてい
+    るバージョンのファームウェアを使用していただくことを推奨します。
+    このバージョン以降で動作させてください。バージョン以前のものでも動作します
+    が問題があった場合は、このバージョン以降で動作させてください。
+    なお、以下の記載中、I/F欄に使用している記号は、S=Serial、P=Parallel、
+    U=USB、E=Ethernet（無線も含む）、B=Bluetoothを示します。
+
+    POSﾌﾟﾘﾝﾀー(POSPrinter)                              動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON TM-T88VM                                          Ver 30.12
+      EPSON TM-T88VPM (ﾊﾟﾗﾚﾙI/F)                              Ver 30.12
+      EPSON TM-T88VMU (USB)                                   Ver 30.12
+      EPSON TM-T88VME (Ethernet)                              Ver 30.12
+      EPSON TM-T88VMB (Bluetooth)                             Ver 30.12
+
+    ﾗｲﾝﾃﾞｨｽﾌﾟﾚｲ(LineDisplay)                            動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON DM-D110                                           Ver 1.01
+      EPSON DM-D210                                           Ver 1.01
+      EPSON DM-D110U (USB)                                    Ver 1.01
+      EPSON DM-D210U (USB)                                    Ver 1.01
+      EPSON DM-D500                                           Ver 1.10
+      EPSON DM-D500U (USB)                                    Ver 1.10
+      EPSON DM-D120 (For ARCX (IM-700))                       Ver 1.00
+
+    ﾄﾞﾛﾜｰ(CashDrawer)
+      EPSON DSA-35ED
+      EPSON DSA-35EDB(Bluetooth)
+      EPSON DSA-35EDE(Ethernet)
+      EPSON DSA-35EDU(USB)
+      EPSON DSA-35EDP(ﾊﾟﾗﾚﾙI/F)
+      EPSON DMA-48ED 
+      EPSON DMA-48EDB(Bluetooth)
+      EPSON DMA-48EDE(Ethernet)
+      EPSON DMA-48EDU(USB)
+      EPSON DMA-48EDP(ﾊﾟﾗﾚﾙI/F)
+      EPSON DLA-58ED 
+      EPSON DLA-58EDB(Bluetooth)
+      EPSON DLA-58EDE(Ethernet)
+      EPSON DLA-58EDU(USB)
+      EPSON DLA-58EDP(ﾊﾟﾗﾚﾙI/F)
+      EPSON DM-Z460(松代金属）
+      EPSON DM-Z460B(松代金属(Bluetooth))
+      EPSON DM-Z460E(松代金属(Ethernet))
+      EPSON DM-Z460U(松代金属(USB))
+      EPSON DM-Z460P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON DM-Z461(松代金属)
+      EPSON DM-Z461B(松代金属(Bluetooth))
+      EPSON DM-Z461E(松代金属(Ethernet))
+      EPSON DM-Z461U(松代金属(USB))
+      EPSON DM-Z461P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON DM-Z400(松代金属)
+      EPSON DM-Z400B(松代金属(Bluetooth))
+      EPSON DM-Z400E(松代金属(Ethernet))
+      EPSON DM-Z400U(松代金属(USB))
+      EPSON DM-Z400P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON DM-Z100(松代金属)
+      EPSON DM-Z100B(松代金属(Bluetooth))
+      EPSON DM-Z100E(松代金属(Ethernet))
+      EPSON DM-Z100U(松代金属(USB))
+      EPSON DM-Z100P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON MULTI_A ( For 2 Drawer )
+      EPSON MULTI_B ( For 2 Drawer )
+      EPSON MULTI_AB ( For 2 Drawer(Bluetooth))
+      EPSON MULTI_BB ( For 2 Drawer(Bluetooth))
+      EPSON MULTI_AE ( For 2 Drawer(Ethernet))
+      EPSON MULTI_BE ( For 2 Drawer(Ethernet))
+      EPSON MULTI_AU ( For 2 Drawer(USB))
+      EPSON MULTI_BU ( For 2 Drawer(USB))
+      EPSON MULTI_AP ( For 2 Drawer(ﾊﾟﾗﾚﾙI/F))
+      EPSON MULTI_BP ( For 2 Drawer(ﾊﾟﾗﾚﾙI/F))
+
+    電子ｼﾞｬｰﾅﾙ(ElectronicJournal)                       動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON TM-T88VM                                          Ver 30.12
+      EPSON TM-T88VPM (ﾊﾟﾗﾚﾙI/F)                              Ver 30.12
+      EPSON TM-T88VMU (USB)                                   Ver 30.12
+      EPSON TM-T88VME (Ethernet)                              Ver 30.12
+
+ * 注意
+   以下のデバイスは、Windows Vista以降の環境ではサポートしていません。
+     ﾗｲﾝﾃﾞｨｽﾌﾟﾚｲ(LineDisplay)
+       EPSON DM-D120 (For ARCX(IM-700))
+
+9. EPSON OPOS ADK for TM-T88V Version 1.23Jの注意制限
+    以下に、本バージョンの制限事項および問題の対処方法を記します。
+    この他に、「ユーザーズマニュアル」、「アプリケーション開発ガイド 開発全般」
+    にも注意事項が記載されています。必ず参照してください。
+     - 9.1 インストール・アンインストールについて
+     - 9.2 インターフェイスについて
+     - 9.3 デバイスについて
+     - 9.4. その他
+
+9.1 インストール・アンインストールについて
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.1 インストール・アンインストールについて」を参照してください。
+
+9.2 インターフェイスについて
+9.2.1 パラレル接続
+    1) LPTポートは、LPT1で動作確認を行っています。
+    2) BIOSで設定するパラレルのモードについては、ECPやEPP等の“Bi-Directional”
+       を設定してください。
+    3) BIOSによっては、「ECPでは正常動作しないがEPPでは正常動作する」場合や、逆
+       に「EPPでは正常動作しないがECPでは正常動作する」場合があります。正常に動
+       作しない場合は、本設定を変更して動作確認を行ってください。
+    4) デバイスの電源をOFFしてから、ServiceObjectが電源OFFを認識するまでには、
+       数秒の遅れが生じますので、アプリケーションでこれを考慮してください。
+
+9.2.2 USB接続
+    1) USBポートは最大10台のPOSPrinterを接続して動作確認を行っています。
+    2) SetupPOSにおいてポートの種類が"TMPORT"となる機種を登録する場合は、
+       [TMPORT Making]ダイアログボックスでUSBのTMPORTを作成した後、数秒後にデバ
+       イスの電源を入れてください。ポートの作成前に電源を入れると、予期しない
+       ポートに接続される可能性があります。
+
+9.2.3 ネットワーク接続
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.2.3 ネットワーク接続」を参照してください。
+
+9.2.4 Bluetooth接続
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.2.4 Bluetooth接続」を参照してください。
+
+9.3 デバイスについて
+9.3.1 POSPrinter
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.3.1 POSPrinter」を参照してください。
+
+9.4. その他
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.4 その他」を参照してください。
+
+10. EPSON OPOS ADK for TM-T88V Version 1.23Jの変更履歴
+    [Version 1.23]
+     (1)POSプリンター(POSPrinter)
+       - Bluetoothが、TM-T88Vのサポートインターフェースに追加されました。
+     (2)ﾄﾞﾛﾜｰ(CashDrawer)
+       - Bluetoothが、CashDrawerのサポートインターフェースに追加されました。        [Version 1.22]
+       Windows 8 (32bit)、Windows 8 (64bit)、Windows Server 2012 (64 bit)をOS環境に追加しました。
+    [Version 1.21]
+      変更なし
+    [Version 1.20]
+      変更なし
+    [Version 1.10]
+     (1)UPOS 1.12／1.13版に準拠し、以下の機能を追加しています。
+         POSプリンター(POSPrinter)：
+           エスケープシーケンス機能の追加
+             エスケープシーケンスのアスタリスク機能
+             取り消し線機能
+           バーコード GS1、QRシンボルの定数追加
+     (2)SetupPOS
+       - トレース機能：[トレースログファイルのサイズが上限を超えた際に通知する]
+         設定のデフォルトを無効にしました。
+         ユーザーズマニュアルの「5.2.1 メニュー」の「5 オプション」を参照してく
+         ださい。
+     (3)POSプリンター(POSPrinter)
+       - DirectIO Eventで通知できるESC/POSコマンドのレスポンスの種類を追加しま
+         した。
+       - 不揮発性メモリ(NVRAM)に登録できるイメージ数の制限を外しました。
+         アプリケーション開発ガイド POSPrinterマニュアルの「3.5.2.1 NV ビット
+         マップ」を参照してください。
+      注：上記変更は、下記のカテゴリ、デバイスになります。
+          カテゴリ：POSPrinter、LineDisplay、CashDrawer
+          デバイス：TM-H6000II/III/IV、TM-T20、TM-T70、TM-T88III/IV/V、
+                    TM-T90、TM-U220
+    [Version 1.02]
+     (1)共通
+       - Windows Embedded Standard 7をOS環境に追加しました。
+       - Windows 7 SP1 (32bit)、Windows 7 SP1 (64bit)、およびWindows Server 
+         2008 R2 SP1 (64bit)をOS環境に追加しました。
+    [Version 1.01]
+     (1)共通
+       - Oposepsn.basファイルを更新しました。これに伴い、サンプルプログラムも更
+         新しています。
+    [Version 1.00]
+     新規リリース
+
+
+11. EPSON OPOS ADK for TM-T20 Version 1.21Jのサポートデバイス
+11.1 サポートするデバイス、動作確認ファームウェアバージョン
+    本製品では、下記のデバイスをサポートします。
+    動作確認ファームウェアバージョンを記載している機種については、記載されてい
+    るバージョンのファームウェアを使用していただくことを推奨します。
+    このバージョン以降で動作させてください。バージョン以前のものでも動作します
+    が問題があった場合は、このバージョン以降で動作させてください。
+    なお、以下の記載中、I/F欄に使用している記号は、S=Serial、P=Parallel、
+    U=USB、E=Ethernet（無線も含む）を示します。
+
+    POSﾌﾟﾘﾝﾀ(POSPrinter)                                動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON TM-T20MU (USB)                                    Ver 1.01
+      EPSON TM-T20M-42CU (USB)                                Ver 1.01
+
+    ﾄﾞﾛﾜｰ(CashDrawer)
+      EPSON DSA-35EDU(USB)
+      EPSON DMA-48EDU(USB)
+      EPSON DLA-58EDU(USB)
+      EPSON DM-Z460U(松代金属(USB))
+      EPSON DM-Z461U(松代金属(USB))
+      EPSON DM-Z400U(松代金属(USB))
+      EPSON DM-Z100U(松代金属(USB))
+      EPSON MULTI_AU ( For 2 Drawer(USB))
+      EPSON MULTI_BU ( For 2 Drawer(USB))
+
+    電子ｼﾞｬｰﾅﾙ(ElectronicJournal)                       動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON TM-T20MU (USB)                                    Ver 1.01
+      EPSON TM-T20M-42CU (USB)                                Ver 1.01
+
+12. EPSON OPOS ADK for TM-T20 Version 1.21Jの注意制限事項
+    以下に、本バージョンの制限事項および問題の対処方法を記します。
+    この他に、「ユーザーズマニュアル」、「アプリケーション開発ガイド 開発全般」
+    にも注意事項が記載されています。必ず参照してください。
+     - 12.1 インストール・アンインストールについて
+     - 12.2 インターフェイスについて
+     - 12.3 デバイスについて
+     - 12.4 その他
+
+12.1 インストール・アンインストールについて
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.1 インストール・アンインストールについて」を参照してください。
+
+12.2 インターフェイスについて
+12.2.1 USB接続
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.2.2 USB接続」を参照してください。
+
+12.3 デバイスについて
+12.3.1 POSPrinter
+    1) OPOS使用による以降のプリンター送信データについて
+       一旦OPOSを使用することにより、デバイス設定が書き換えられます。これにより
+       次のデータがデバイスから送信されますので、OPOSを使用せずに直接デバイスを
+       使用する場合には、このデータを読み捨ててください。
+        - 電源ONの際に送信される3バイトのプリンターステータス
+        - 電源ONの際に送信される3バイトの電源ON通知
+
+12.4 その他
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.4 その他」を参照してください。
+
+13. EPSON OPOS ADK for TM-T20 Version 1.21Jの変更履歴
+    [Version 1.21]
+      変更なし
+    [Version 1.20]
+      変更なし
+    [Version 1.10]
+     (1)UPOS 1.12／1.13版に準拠し、以下の機能を追加しています。
+         POSプリンター(POSPrinter)：
+           エスケープシーケンス機能の追加
+             エスケープシーケンスのアスタリスク機能
+             取り消し線機能
+           バーコード GS1、QRシンボルの定数追加
+     (2)SetupPOS
+       - トレース機能：[トレースログファイルのサイズが上限を超えた際に通知する]
+         設定のデフォルトを無効にしました。
+         ユーザーズマニュアルの「5.2.1 メニュー」の「5 オプション」を参照してく
+         ださい。
+     (3)POSプリンター(POSPrinter)
+       - DirectIO Eventで通知できるESC/POSコマンドのレスポンスの種類を追加しま
+         した。
+       - 不揮発性メモリ(NVRAM)に登録できるイメージ数の制限を外しました。
+         アプリケーション開発ガイド POSPrinterマニュアルの「3.5.2.1 NV ビット
+         マップ」を参照してください。
+    [Version 1.00]
+     新規リリース
+
+14. EPSON OPOS ADK for TM-T70II Version 1.03Jのサポートデバイス
+
+14.1 サポートするデバイス、動作確認ファームウェアバージョン
+    本製品では、下記のデバイスをサポートします。
+    動作確認ファームウェアバージョンを記載している機種については、記載されてい
+    るバージョンのファームウェアを使用していただくことを推奨します。
+    このバージョン以降で動作させてください。バージョン以前のものでも動作します
+    が問題があった場合は、このバージョン以降で動作させてください。
+    なお、以下の記載中、I/F欄に使用している記号は、S=Serial、P=Parallel、
+    U=USB、E=Ethernet（無線も含む）、B=Bluetoothを示します。
+
+    POSﾌﾟﾘﾝﾀー(POSPrinter)                              動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON TM-T70IIM                                          Ver 1.00 
+      EPSON TM-T70IIPM (ﾊﾟﾗﾚﾙI/F)                              Ver 1.00
+      EPSON TM-T70IIMU (USB)                                   Ver 1.00
+      EPSON TM-T70IIME (Ethernet)                              Ver 1.00
+      EPSON TM-T70IIMB (Bluetooth)                             Ver 1.00
+
+    ﾗｲﾝﾃﾞｨｽﾌﾟﾚｲ(LineDisplay)                            動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON DM-D110                                           Ver 1.01
+      EPSON DM-D210                                           Ver 1.01
+      EPSON DM-D110U (USB)                                    Ver 1.01
+      EPSON DM-D210U (USB)                                    Ver 1.01
+      EPSON DM-D500                                           Ver 1.10
+      EPSON DM-D500U (USB)                                    Ver 1.10
+      EPSON DM-D120 (For ARCX (IM-700))                       Ver 1.00
+
+    ﾄﾞﾛﾜｰ(CashDrawer)
+      EPSON DSA-35ED
+      EPSON DSA-35EDB(Bluetooth)
+      EPSON DSA-35EDE(Ethernet)
+      EPSON DSA-35EDU(USB)
+      EPSON DSA-35EDP(ﾊﾟﾗﾚﾙI/F)
+      EPSON DMA-48ED 
+      EPSON DMA-48EDB(Bluetooth)
+      EPSON DMA-48EDE(Ethernet)
+      EPSON DMA-48EDU(USB)
+      EPSON DMA-48EDP(ﾊﾟﾗﾚﾙI/F)
+      EPSON DLA-58ED 
+      EPSON DLA-58EDE(Bluetooth)
+      EPSON DLA-58EDE(Ethernet)
+      EPSON DLA-58EDU(USB)
+      EPSON DLA-58EDP(ﾊﾟﾗﾚﾙI/F)
+      EPSON DM-Z460(松代金属）
+      EPSON DM-Z460B(松代金属(Bluetooth))
+      EPSON DM-Z460E(松代金属(Ethernet))
+      EPSON DM-Z460U(松代金属(USB))
+      EPSON DM-Z460P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON DM-Z461(松代金属)
+      EPSON DM-Z461B(松代金属(Bluetooth))
+      EPSON DM-Z461E(松代金属(Ethernet))
+      EPSON DM-Z461U(松代金属(USB))
+      EPSON DM-Z461P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON DM-Z400(松代金属)
+      EPSON DM-Z400B(松代金属(Bluetooth))
+      EPSON DM-Z400E(松代金属(Ethernet))
+      EPSON DM-Z400U(松代金属(USB))
+      EPSON DM-Z400P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON DM-Z100(松代金属)
+      EPSON DM-Z100B(松代金属(Bluetooth))
+      EPSON DM-Z100E(松代金属(Ethernet))
+      EPSON DM-Z100U(松代金属(USB))
+      EPSON DM-Z100P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON MULTI_A ( For 2 Drawer )
+      EPSON MULTI_B ( For 2 Drawer )
+      EPSON MULTI_AB ( For 2 Drawer(Bluetooth))
+      EPSON MULTI_BB ( For 2 Drawer(Bluetooth))
+      EPSON MULTI_AE ( For 2 Drawer(Ethernet))
+      EPSON MULTI_BE ( For 2 Drawer(Ethernet))
+      EPSON MULTI_AU ( For 2 Drawer(USB))
+      EPSON MULTI_BU ( For 2 Drawer(USB))
+      EPSON MULTI_AP ( For 2 Drawer(ﾊﾟﾗﾚﾙI/F))
+      EPSON MULTI_BP ( For 2 Drawer(ﾊﾟﾗﾚﾙI/F))
+
+ * 注意
+   以下のデバイスは、Windows Vista以降の環境ではサポートしていません。
+     ﾗｲﾝﾃﾞｨｽﾌﾟﾚｲ(LineDisplay)
+       EPSON DM-D120 (For ARCX(IM-700))
+
+15. EPSON OPOS ADK for TM-T70II Version 1.03Jの注意制限
+    以下に、本バージョンの制限事項および問題の対処方法を記します。
+    この他に、「ユーザーズマニュアル」、「アプリケーション開発ガイド 開発全般」
+    にも注意事項が記載されています。必ず参照してください。
+     - 15.1 インストール・アンインストールについて
+     - 15.2 インターフェイスについて
+     - 15.3 デバイスについて
+     - 15.4. その他
+
+15.1 インストール・アンインストールについて
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.1 インストール・アンインストールについて」を参照してください。
+
+15.2 インターフェイスについて
+15.2.1 パラレル接続
+    1) LPTポートは、LPT1で動作確認を行っています。
+    2) BIOSで設定するパラレルのモードについては、ECPやEPP等の“Bi-Directional”
+       を設定してください。
+    3) BIOSによっては、「ECPでは正常動作しないがEPPでは正常動作する」場合や、逆
+       に「EPPでは正常動作しないがECPでは正常動作する」場合があります。正常に動
+       作しない場合は、本設定を変更して動作確認を行ってください。
+    4) デバイスの電源をOFFしてから、ServiceObjectが電源OFFを認識するまでには、
+       数秒の遅れが生じますので、アプリケーションでこれを考慮してください。
+
+15.2.2 USB接続
+    1) USBポートは最大10台のPOSPrinterを接続して動作確認を行っています。
+    2) SetupPOSにおいてポートの種類が"TMPORT"となる機種を登録する場合は、
+       [TMPORT Making]ダイアログボックスでUSBのTMPORTを作成した後、数秒後にデバ
+       イスの電源を入れてください。ポートの作成前に電源を入れると、予期しない
+       ポートに接続される可能性があります。
+
+15.2.3 ネットワーク接続
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.2.3 ネットワーク接続」を参照してください。
+15.2.4 Bluetooth接続
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.2.4 Bluetooth接続」を参照してください。
+
+15.3 デバイスについて
+15.3.1 POSPrinter
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.3.1 POSPrinter」を参照してください。
+
+15.4. その他
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.4 その他」を参照してください。
+
+16. EPSON OPOS ADK for TM-T70II Version 1.03Jの変更履歴
+    [Version 1.03]
+     (1)POSプリンター(POSPrinter)
+       - Bluetoothが、TM-T70IIのサポートインターフェースに追加されました。
+     (2)ﾄﾞﾛﾜｰ(CashDrawer)
+       - Bluetoothが、CashDrawerのサポートインターフェースに追加されました。
+    [Version1.02]
+      不具合修正
+           - SetupPOSでTM-T70IIのCashDrawerが登録できない現象に対応しました。
+    [Version1.01]
+      不具合修正
+           - TM-T70IIでOPOSの初期化に失敗する現象に対応しました。
+    [Version 1.00]
+     新規リリース
+
+17. EPSON OPOS ADK for TM-L90 Version 1.0Jのサポートデバイス
+
+17.1 サポートするデバイス、動作確認ファームウェアバージョン
+    本製品では、下記のデバイスをサポートします。
+    動作確認ファームウェアバージョンを記載している機種については、記載されてい
+    るバージョンのファームウェアを使用していただくことを推奨します。
+    このバージョン以降で動作させてください。バージョン以前のものでも動作します
+    が問題があった場合は、このバージョン以降で動作させてください。
+    なお、以下の記載中、I/F欄に使用している記号は、S=Serial、P=Parallel、
+    U=USB、E=Ethernet（無線も含む）を示します。
+
+    POSﾌﾟﾘﾝﾀー(POSPrinter)                              動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON TM-L90M                                          Ver 1.00 
+      EPSON TM-L90PM (ﾊﾟﾗﾚﾙI/F)                              Ver 1.00
+      EPSON TM-L90MU (USB)                                   Ver 1.00
+      EPSON TM-L90ME (Ethernet)                              Ver 1.00
+
+    ﾗｲﾝﾃﾞｨｽﾌﾟﾚｲ(LineDisplay)                            動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON DM-D110                                           Ver 1.01
+      EPSON DM-D210                                           Ver 1.01
+      EPSON DM-D110U (USB)                                    Ver 1.01
+      EPSON DM-D210U (USB)                                    Ver 1.01
+      EPSON DM-D500                                           Ver 1.10
+      EPSON DM-D500U (USB)                                    Ver 1.10
+      EPSON DM-D120 (For ARCX (IM-700))                       Ver 1.00
+
+    ﾄﾞﾛﾜｰ(CashDrawer)
+      EPSON DSA-35ED
+      EPSON DSA-35EDE(Ethernet)
+      EPSON DSA-35EDU(USB)
+      EPSON DSA-35EDP(ﾊﾟﾗﾚﾙI/F)
+      EPSON DMA-48ED 
+      EPSON DMA-48EDE(Ethernet)
+      EPSON DMA-48EDU(USB)
+      EPSON DMA-48EDP(ﾊﾟﾗﾚﾙI/F)
+      EPSON DLA-58ED 
+      EPSON DLA-58EDE(Ethernet)
+      EPSON DLA-58EDU(USB)
+      EPSON DLA-58EDP(ﾊﾟﾗﾚﾙI/F)
+      EPSON DM-Z460(松代金属）
+      EPSON DM-Z460E(松代金属(Ethernet))
+      EPSON DM-Z460U(松代金属(USB))
+      EPSON DM-Z460P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON DM-Z461(松代金属)
+      EPSON DM-Z461E(松代金属(Ethernet))
+      EPSON DM-Z461U(松代金属(USB))
+      EPSON DM-Z461P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON DM-Z400(松代金属)
+      EPSON DM-Z400E(松代金属(Ethernet))
+      EPSON DM-Z400U(松代金属(USB))
+      EPSON DM-Z400P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON DM-Z100(松代金属)
+      EPSON DM-Z100E(松代金属(Ethernet))
+      EPSON DM-Z100U(松代金属(USB))
+      EPSON DM-Z100P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON MULTI_A ( For 2 Drawer )
+      EPSON MULTI_B ( For 2 Drawer )
+      EPSON MULTI_AE ( For 2 Drawer(Ethernet))
+      EPSON MULTI_BE ( For 2 Drawer(Ethernet))
+      EPSON MULTI_AU ( For 2 Drawer(USB))
+      EPSON MULTI_BU ( For 2 Drawer(USB))
+      EPSON MULTI_AP ( For 2 Drawer(ﾊﾟﾗﾚﾙI/F))
+      EPSON MULTI_BP ( For 2 Drawer(ﾊﾟﾗﾚﾙI/F))
+
+ * 注意
+   以下のデバイスは、Windows Vista以降の環境ではサポートしていません。
+     ﾗｲﾝﾃﾞｨｽﾌﾟﾚｲ(LineDisplay)
+       EPSON DM-D120 (For ARCX(IM-700))
+
+18. EPSON OPOS ADK for TM-L90 Version 1.00Jの注意制限
+    以下に、本バージョンの制限事項および問題の対処方法を記します。
+    この他に、「ユーザーズマニュアル」、「アプリケーション開発ガイド 開発全般」
+    にも注意事項が記載されています。必ず参照してください。
+     - 18.1 インストール・アンインストールについて
+     - 18.2 インターフェイスについて
+     - 18.3 デバイスについて
+     - 18.4. その他
+
+18.1 インストール・アンインストールについて
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.1 インストール・アンインストールについて」を参照してください。
+
+18.2 インターフェイスについて
+18.2.1 パラレル接続
+    1) LPTポートは、LPT1で動作確認を行っています。
+    2) BIOSで設定するパラレルのモードについては、ECPやEPP等の“Bi-Directional”
+       を設定してください。
+    3) BIOSによっては、「ECPでは正常動作しないがEPPでは正常動作する」場合や、逆
+       に「EPPでは正常動作しないがECPでは正常動作する」場合があります。正常に動
+       作しない場合は、本設定を変更して動作確認を行ってください。
+    4) デバイスの電源をOFFしてから、ServiceObjectが電源OFFを認識するまでには、
+       数秒の遅れが生じますので、アプリケーションでこれを考慮してください。
+
+18.2.2 USB接続
+    1) USBポートは最大10台のPOSPrinterを接続して動作確認を行っています。
+    2) SetupPOSにおいてポートの種類が"TMPORT"となる機種を登録する場合は、
+       [TMPORT Making]ダイアログボックスでUSBのTMPORTを作成した後、数秒後にデバ
+       イスの電源を入れてください。ポートの作成前に電源を入れると、予期しない
+       ポートに接続される可能性があります。
+
+18.2.3 ネットワーク接続
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.2.3 ネットワーク接続」を参照してください。
+
+18.3 デバイスについて
+18.3.1 POSPrinter
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.3.1 POSPrinter」を参照してください。
+
+18.4. その他
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.4 その他」を参照してください。
+
+19. EPSON OPOS ADK for TM-L90 Version 1.00Jの変更履歴
+    [Version 1.00]
+     新規リリース
+
+20. EPSON OPOS ADK for TM-T90II Version 1.0Jのサポートデバイス
+
+20.1 サポートするデバイス、動作確認ファームウェアバージョン
+    本製品では、下記のデバイスをサポートします。
+    動作確認ファームウェアバージョンを記載している機種については、記載されてい
+    るバージョンのファームウェアを使用していただくことを推奨します。
+    このバージョン以降で動作させてください。バージョン以前のものでも動作します
+    が問題があった場合は、このバージョン以降で動作させてください。
+    なお、以下の記載中、I/F欄に使用している記号は、S=Serial、P=Parallel、
+    U=USB、E=Ethernet（無線も含む）を示します。
+
+    POSﾌﾟﾘﾝﾀー(POSPrinter)                              動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON TM-T90IIM                                          Ver 5.00 
+      EPSON TM-T90IIPM (ﾊﾟﾗﾚﾙI/F)                              Ver 5.00
+      EPSON TM-T90IIMU (USB)                                   Ver 5.00
+      EPSON TM-T90IIME (Ethernet)                              Ver 5.00
+
+    ﾗｲﾝﾃﾞｨｽﾌﾟﾚｲ(LineDisplay)                            動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON DM-D110                                           Ver 1.01
+      EPSON DM-D210                                           Ver 1.01
+      EPSON DM-D110U (USB)                                    Ver 1.01
+      EPSON DM-D210U (USB)                                    Ver 1.01
+      EPSON DM-D500                                           Ver 1.10
+      EPSON DM-D500U (USB)                                    Ver 1.10
+      EPSON DM-D120 (For ARCX (IM-700))                       Ver 1.00
+
+    ﾄﾞﾛﾜｰ(CashDrawer)
+      EPSON DSA-35ED
+      EPSON DSA-35EDE(Ethernet)
+      EPSON DSA-35EDU(USB)
+      EPSON DSA-35EDP(ﾊﾟﾗﾚﾙI/F)
+      EPSON DMA-48ED 
+      EPSON DMA-48EDE(Ethernet)
+      EPSON DMA-48EDU(USB)
+      EPSON DMA-48EDP(ﾊﾟﾗﾚﾙI/F)
+      EPSON DLA-58ED 
+      EPSON DLA-58EDE(Ethernet)
+      EPSON DLA-58EDU(USB)
+      EPSON DLA-58EDP(ﾊﾟﾗﾚﾙI/F)
+      EPSON DM-Z460(松代金属）
+      EPSON DM-Z460E(松代金属(Ethernet))
+      EPSON DM-Z460U(松代金属(USB))
+      EPSON DM-Z460P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON DM-Z461(松代金属)
+      EPSON DM-Z461E(松代金属(Ethernet))
+      EPSON DM-Z461U(松代金属(USB))
+      EPSON DM-Z461P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON DM-Z400(松代金属)
+      EPSON DM-Z400E(松代金属(Ethernet))
+      EPSON DM-Z400U(松代金属(USB))
+      EPSON DM-Z400P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON DM-Z100(松代金属)
+      EPSON DM-Z100E(松代金属(Ethernet))
+      EPSON DM-Z100U(松代金属(USB))
+      EPSON DM-Z100P(松代金属(ﾊﾟﾗﾚﾙI/F))
+      EPSON MULTI_A ( For 2 Drawer )
+      EPSON MULTI_B ( For 2 Drawer )
+      EPSON MULTI_AE ( For 2 Drawer(Ethernet))
+      EPSON MULTI_BE ( For 2 Drawer(Ethernet))
+      EPSON MULTI_AU ( For 2 Drawer(USB))
+      EPSON MULTI_BU ( For 2 Drawer(USB))
+      EPSON MULTI_AP ( For 2 Drawer(ﾊﾟﾗﾚﾙI/F))
+      EPSON MULTI_BP ( For 2 Drawer(ﾊﾟﾗﾚﾙI/F))
+
+ * 注意
+   以下のデバイスは、Windows Vista以降の環境ではサポートしていません。
+     ﾗｲﾝﾃﾞｨｽﾌﾟﾚｲ(LineDisplay)
+       EPSON DM-D120 (For ARCX(IM-700))
+
+21. EPSON OPOS ADK for TM-T90II Version 1.00Jの注意制限
+    以下に、本バージョンの制限事項および問題の対処方法を記します。
+    この他に、「ユーザーズマニュアル」、「アプリケーション開発ガイド 開発全般」
+    にも注意事項が記載されています。必ず参照してください。
+     - 21.1 インストール・アンインストールについて
+     - 21.2 インターフェイスについて
+     - 21.3 デバイスについて
+     - 21.4. その他
+
+21.1 インストール・アンインストールについて
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.1 インストール・アンインストールについて」を参照してください。
+
+21.2 インターフェイスについて
+21.2.1 パラレル接続
+    1) LPTポートは、LPT1で動作確認を行っています。
+    2) BIOSで設定するパラレルのモードについては、ECPやEPP等の“Bi-Directional”
+       を設定してください。
+    3) BIOSによっては、「ECPでは正常動作しないがEPPでは正常動作する」場合や、逆
+       に「EPPでは正常動作しないがECPでは正常動作する」場合があります。正常に動
+       作しない場合は、本設定を変更して動作確認を行ってください。
+    4) デバイスの電源をOFFしてから、ServiceObjectが電源OFFを認識するまでには、
+       数秒の遅れが生じますので、アプリケーションでこれを考慮してください。
+
+21.2.2 USB接続
+    1) USBポートは最大10台のPOSPrinterを接続して動作確認を行っています。
+    2) SetupPOSにおいてポートの種類が"TMPORT"となる機種を登録する場合は、
+       [TMPORT Making]ダイアログボックスでUSBのTMPORTを作成した後、数秒後にデバ
+       イスの電源を入れてください。ポートの作成前に電源を入れると、予期しない
+       ポートに接続される可能性があります。
+
+21.2.3 ネットワーク接続
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.2.3 ネットワーク接続」を参照してください。
+
+21.3 デバイスについて
+21.3.1 POSPrinter
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.3.1 POSPrinter」を参照してください。
+
+21.4. その他
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.4 その他」を参照してください。
+
+22. EPSON OPOS ADK for TM-T90II Version 1.00Jの変更履歴
+    [Version 1.00]
+     新規リリース
+
+23. EPSON OPOS ADK for TM-T90KP Version 1.00Jのサポートデバイス
+
+23.1 サポートするデバイス、動作確認ファームウェアバージョン
+    本製品では、下記のデバイスをサポートします。
+    動作確認ファームウェアバージョンを記載している機種については、記載されてい
+    るバージョンのファームウェアを使用していただくことを推奨します。
+    このバージョン以降で動作させてください。バージョン以前のものでも動作します
+    が問題があった場合は、このバージョン以降で動作させてください。
+    なお、以下の記載中、I/F欄に使用している記号は、S=Serial、P=Parallel、
+    U=USB、E=Ethernet（無線も含む）を示します。
+
+    POSﾌﾟﾘﾝﾀー(POSPrinter)                              動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON TM-T90KPME (Ethernet)                              Ver 3.00
+
+24. EPSON OPOS ADK for TM-T90KP Version 1.00Jの注意制限
+    以下に、本バージョンの制限事項および問題の対処方法を記します。
+    この他に、「ユーザーズマニュアル」、「アプリケーション開発ガイド 開発全般」
+    にも注意事項が記載されています。必ず参照してください。
+     - 24.1 インストール・アンインストールについて
+     - 24.2 インターフェイスについて
+     - 24.3 デバイスについて
+     - 24.4. その他
+
+24.1 インストール・アンインストールについて
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.1 インストール・アンインストールについて」を参照してください。
+
+24.2 インターフェイスについて
+24.2.1 パラレル接続
+    1) LPTポートは、LPT1で動作確認を行っています。
+    2) BIOSで設定するパラレルのモードについては、ECPやEPP等の“Bi-Directional”
+       を設定してください。
+    3) BIOSによっては、「ECPでは正常動作しないがEPPでは正常動作する」場合や、逆
+       に「EPPでは正常動作しないがECPでは正常動作する」場合があります。正常に動
+       作しない場合は、本設定を変更して動作確認を行ってください。
+    4) デバイスの電源をOFFしてから、ServiceObjectが電源OFFを認識するまでには、
+       数秒の遅れが生じますので、アプリケーションでこれを考慮してください。
+
+24.2.2 USB接続
+    1) USBポートは最大10台のPOSPrinterを接続して動作確認を行っています。
+    2) SetupPOSにおいてポートの種類が"TMPORT"となる機種を登録する場合は、
+       [TMPORT Making]ダイアログボックスでUSBのTMPORTを作成した後、数秒後にデバ
+       イスの電源を入れてください。ポートの作成前に電源を入れると、予期しない
+       ポートに接続される可能性があります。
+
+24.2.3 ネットワーク接続
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.2.3 ネットワーク接続」を参照してください。
+
+24.3 デバイスについて
+24.3.1 POSPrinter
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.3.1 POSPrinter」を参照してください。
+
+24.4. その他
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.4 その他」を参照してください。
+
+25. EPSON OPOS ADK for TM-T90KP Version 1.00Jの変更履歴
+    [Version 1.00]
+     新規リリース
+
+26. EPSON OPOS ADK for TM-T20II Version 1.00Jのサポートデバイス
+26.1 サポートするデバイス、動作確認ファームウェアバージョン
+    本製品では、下記のデバイスをサポートします。
+    動作確認ファームウェアバージョンを記載している機種については、記載されてい
+    るバージョンのファームウェアを使用していただくことを推奨します。
+    このバージョン以降で動作させてください。バージョン以前のものでも動作します
+    が問題があった場合は、このバージョン以降で動作させてください。
+    なお、以下の記載中、I/F欄に使用している記号は、E=Ethernet（無線も含む）、
+    B=Bluetoothを示します。
+
+    POSﾌﾟﾘﾝﾀ(POSPrinter)                                動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON TM-T20IIME        (Ethernet)                      Ver 5.00
+      EPSON TM-T20IIM-42CE    (Ethernet)                      Ver 5.00
+      EPSON TM-T20IIMB        (Bluetooth)                     Ver 5.00
+      EPSON TM-T20IIM-42CB    (Bluetooth)                     Ver 5.00
+
+    ﾄﾞﾛﾜｰ(CashDrawer)
+      EPSON DSA-35EDB(Bluetooth)
+      EPSON DSA-35EDE(Ethernet)
+      EPSON DMA-48EDB(Bluetooth)
+      EPSON DMA-48EDE(Ethernet)
+      EPSON DLA-58EDE(Bluetooth)
+      EPSON DLA-58EDE(Ethernet)
+      EPSON DM-Z460B(松代金属(Bluetooth))
+      EPSON DM-Z460E(松代金属(Ethernet))
+      EPSON DM-Z461B(松代金属(Bluetooth))
+      EPSON DM-Z461E(松代金属(Ethernet))
+      EPSON DM-Z400B(松代金属(Bluetooth))
+      EPSON DM-Z400E(松代金属(Ethernet))
+      EPSON DM-Z100B(松代金属(Bluetooth))
+      EPSON DM-Z100E(松代金属(Ethernet))
+      EPSON MULTI_AB ( For 2 Drawer(Bluetooth))
+      EPSON MULTI_BB ( For 2 Drawer(Bluetooth))
+      EPSON MULTI_AE ( For 2 Drawer(Ethernet))
+      EPSON MULTI_BE ( For 2 Drawer(Ethernet))
+      
+    電子ｼﾞｬｰﾅﾙ(ElectronicJournal)                       動作確認ﾌｧｰﾑｳｪｱﾊﾞｰｼﾞｮﾝ
+      EPSON TM-T20IIME        (Ethernet)                      Ver 5.00
+      EPSON TM-T20IIM-42CE    (Ethernet)                      Ver 5.00
+
+27. EPSON OPOS ADK for TM-T20II Version 1.00Jの注意制限事項
+    以下に、本バージョンの制限事項および問題の対処方法を記します。
+    この他に、「ユーザーズマニュアル」、「アプリケーション開発ガイド 開発全般」
+    にも注意事項が記載されています。必ず参照してください。
+     - 27.1 インストール・アンインストールについて
+     - 27.2 インターフェイスについて
+     - 27.3 デバイスについて
+     - 27.4 その他
+
+27.1 インストール・アンインストールについて
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.1 インストール・アンインストールについて」を参照してください。
+
+27.2 インターフェイスについて
+27.2.1 USB接続
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.2.2 USB接続」を参照してください。
+27.2.2 ネットワーク接続
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.2.3 ネットワーク接続」を参照してください。
+27.2.3 Bluetooth接続
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.2.4 Bluetooth接続」を参照してください。
+
+27.3 デバイスについて
+27.3.1 POSPrinter
+    1) OPOS使用による以降のプリンター送信データについて
+       一旦OPOSを使用することにより、デバイス設定が書き換えられます。これにより
+       次のデータがデバイスから送信されますので、OPOSを使用せずに直接デバイスを
+       使用する場合には、このデータを読み捨ててください。
+        - 電源ONの際に送信される3バイトのプリンターステータス
+        - 電源ONの際に送信される3バイトの電源ON通知
+
+27.4 その他
+    EPSON OPOS ADK Version 2.70J R16の注意制限事項と同じです。
+    「6.4 その他」を参照してください。
+
+28. EPSON OPOS ADK for TM-T20II Version 1.00Jの変更履歴
+    [Version 1.00]
+     新規リリース
